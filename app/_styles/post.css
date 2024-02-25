@@ -1,0 +1,40 @@
+.post-main {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: white;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-author-date {
+    font-size: 0.7rem;
+    color: grey;
+    margin: 0.5rem 0;
+}
+
+.post-body {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.post-action-section {
+    width: 100%;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.post-save-section {
+    margin: 0 0 0 auto;
+}
+
+.post-action-section span:hover {
+    cursor: pointer;
+}
